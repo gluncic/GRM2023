@@ -1,6 +1,6 @@
 # GRMhor: A Tool for Automatic Annotation of Genome Monomer Higher Order Structure
 
-**GRMhor** is a Python-based tool developed as part of the scientific paper titled "GRMhor: a tool for automatic annotation genome monomer higher order structure". It provides functionalities for analyzing and visualizing the higher-order repeat (HOR) structure of genome monomers. This README provides an overview of the tool's functionality, usage instructions, and installation guidelines.
+**GRMhor** is a Python-based tool developed as part of the scientific paper titled "Efficient genome monomer higher order structure annotation and identification using the GRMhor algorithm". It provides functionalities for analyzing and visualizing the higher-order repeat (HOR) structure of genome monomers. This README provides an overview of the tool's functionality, usage instructions, and installation guidelines.
 
 ## Features
 
@@ -26,7 +26,7 @@ pip install -r requirements.txt
 1. **Running the Tool**: Execute the main script with the desired input file:
 
     ```bash
-    python GRMhor.py input_file.txt --start 0 --pmax 60 --horpos
+    python main_GRMhor.py input_file.txt --start 0 --pmax 60 --horpos
     ```
 
     Replace `input_file.txt` with the path to your input file. Adjust optional parameters `--start`, `--pmax`, and `--horpos` as needed.
@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 ## Citation
 
-If you use **GRMhor** in your research work, please cite the corresponding paper:
+If you use **GRMhor** in your research work, please cite the corresponding paper: "Efficient genome monomer higher order structure annotation and identification using the GRMhor algorithm"
 
 ## License
 
