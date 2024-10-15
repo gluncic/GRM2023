@@ -54,4 +54,4 @@ Contributions to **GRMhor** are welcome! Feel free to fork the repository, make 
 
 ## Contact
 
-For any questions, feedback, or support, please contact [matko.phy@pmf.hr](mailto:matko.phy@pmf.hr).
+For any questions, feedback, or support, please contact [matko@phy.hr](mailto:matko@phy.hr).
