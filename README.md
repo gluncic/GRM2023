@@ -35,7 +35,9 @@ pip install -r requirements.txt
     **--pmax (default: 60):**  
       Specifies the maximum period displayed in the output diagrams, helping to clarify the visualization of HOR structures.  
     **--horpos (default: False):**  
-      Prints the position (in base pairs) of the first monomer in each HOR unit, adding genomic context to the HOR structure.  
+      Prints the position (in base pairs) of the first monomer in each HOR unit, adding genomic context to the HOR structure.
+
+   The algorithm GRMhor is executed with a file containing a sequence of monomers as the input parameter. After loading the monomer array, the application autonomously proceeds through the steps described in the Algorithm outline (see paper “"Efficient genome monomer higher order structure annotation and identification using the GRMhor algorithm"), ultimately generating a GRM diagram, MD diagram, and aligned schematic representation of the monomer organization in the array of monomers. Each generated visualization is automatically saved in three distinct .ps files in the initial directory. 
 
 
 3. **Viewing Results**: Explore the input files and generated output files, including GRM diagrams, MD diagrams, and HOR structure visualizations, in the following directory: github.com/gluncic/GRM2023/tree/master/data.
